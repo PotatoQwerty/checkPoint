@@ -1,0 +1,38 @@
+body {
+  background-color: #f6f9f3;
+  color: #111a0c;
+}
+
+nav {
+  background-color: #83afc7;
+}
+
+nav .nav-item a {
+  color: #f6f9f3;
+}
+
+.hero h1 {
+  background-color: #a0d4d2;
+  padding: 10px;
+  border-radius: 5px;
+  color: #f6f9f3;
+}
+
+.about-us {
+  background-color: #a0d4d2;
+}
+
+footer {
+  background-color: #83afc7;
+  color: #f6f9f3;
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+}
+
+footer a :hover {
+  color: #a0d4d2;
+}/*# sourceMappingURL=index.css.map */

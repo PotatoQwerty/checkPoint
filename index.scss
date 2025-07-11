@@ -1,0 +1,46 @@
+$primary: #78b153;
+$background: #f6f9f3;
+$secondary: #a0d4d2;
+$accent: #83afc7;
+$text: #111a0c;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "accent": $accent,
+  "background": $background,
+  "text": $text,
+);
+body {
+  background-color: $background;
+  color: $text;
+}
+
+nav {
+  background-color: $accent;
+}
+nav .nav-item a {
+  color: $background;
+}
+
+.hero h1 {
+  background-color: $secondary;
+  padding: 10px;
+  border-radius: 5px;
+  color: $background;
+}
+.about-us {
+  background-color: $secondary;
+}
+footer {
+  background-color: $accent;
+  color: $background;
+  padding: 10px;
+  text-align: center;
+}
+footer a {
+  color: white;
+}
+footer a :hover {
+  color: $secondary;
+}

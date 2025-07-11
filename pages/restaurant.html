@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/index.css" />
+    <!-- added this line for the compiled scss -->
+    <title>Delicious Bites</title>
+  </head>
+  <body>
+    <header>
+      <!-- using a bootstrap navbar here -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Deliscious Bites</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="jumbotron p-0 m-0 hero">
+        <div class="position-relative">
+          <img src="/images/pizza.jpg" alt="Pizza" class="img-fluid" />
+          <div
+            class="position-absolute top-50 start-50 translate-middle text-center"
+          >
+            <h1>Try our newest Pizza!</h1>
+            <button class="btn btn-light">Order now!</button>
+          </div>
+        </div>
+      </section>
+      <section class="container my-2" id="Menu">
+        <!-- for the menu i used bootstrap Cards to help organise all elements -->
+        <h2>Our Menu:</h2>
+        <div class="container" id="appetizers">
+          <h3 class="cat-title"><strong>Appetizers</strong></h3>
+          <div class="row g-2">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="/images/garlic-bread.jpg"
+                  alt="Garlic bread"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <strong class="card-title">Garlic Bread</strong>
+                  <p>
+                    Freshly baked bread topped with garlic butter and herbs.
+                  </p>
+                  <p class="badge text-bg-secondary">200DA</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="/images/stuffed-muchroom.webp"
+                  alt="Stuffed Mushrooms"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <strong class="card-title">Stuffed Mushrooms</strong>
+                  <p>
+                    Mushrooms filled with a savory mixture of cheese, herbs, and
+                    breadcrumbs.
+                  </p>
+                  <p class="badge text-bg-secondary">500DA</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="/images/bruschetta.jpg"
+                  alt="Bruschetta"
+                  class="img-fluid rounded"
+                />
+                <div class="card-body">
+                  <strong class="card-title">Bruschetta</strong>
+                  <p>
+                    Toasted bread topped with diced tomatoes, basil, and
+                    balsamic glaze.
+                  </p>
+                  <p class="badge text-bg-secondary">300DA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="main-courses">
+          <h3 class="cat-title"><strong>Main Courses</strong></h3>
+          <div class="row g-2">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="/images/grilled-salmon.webp"
+                  alt="Steak"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <strong class="card-title">Grilled Salmon</strong>
+                  <p>
+                    Served with a side of seasonal vegetables and lemon butter
+                    sauce.
+                  </p>
+                  <p class="badge text-bg-secondary">250DA</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="/images/chicken-alfredo.jpg"
+                  alt="chicken Alfredo"
+                  class="card-img-top"
+                />
+
+                <div class="card-body">
+                  <strong class="card-title">Grilled Salmon</strong>
+                  <p>
+                    Served with a side of seasonal vegetables and lemon butter
+                    sauce.
+                  </p>
+                  <p class="badge text-bg-secondary">1800DA</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="/images/Vegetable-stir-fry.jpeg"
+                  alt="Vegetable stir fry"
+                  class="card-img-top"
+                />
+
+                <div class="card-body">
+                  <strong class="card-title">Vegetable Stir Fry</strong>
+                  <p>
+                    Mixed vegetables sautéed in a savory soy sauce, served over
+                    rice.
+                  </p>
+                  <p class="badge text-bg-secondary">1000DA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container" id="desserts">
+          <h3 class="cat-title"><strong> Desserts </strong></h3>
+          <div class="row g-1">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="/images/tiramisu.jpg"
+                  alt="tiramisu"
+                  class="card-img-top"
+                />
+
+                <div class="card-body">
+                  <strong class="card-title">Tiramisu</strong>
+                  <p class="card-text">
+                    A classic Italian dessert made with coffee-soaked
+                    ladyfingers and mascarpone cheese.
+                  </p>
+                  <p class="badge text-bg-secondary">300 DA</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="/images/lava-cake.webp"
+                  alt="chocolate lava cake"
+                  class="card-img-top"
+                />
+
+                <div class="card-body">
+                  <strong class="card-title">Chocolate Lava Cake</strong>
+                  <p class="card-text">
+                    Warm chocolate cake with a molten center, served with
+                    vanilla ice cream.
+                  </p>
+                  <p class="badge text-bg-secondary">250 DA</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="/images/cheesecake.jpg"
+                  alt="cheesecake"
+                  class="card-img-top"
+                />
+
+                <div class="card-body">
+                  <strong class="card-title">Cheesecake</strong>
+                  <p class="card-text">
+                    Rich and creamy cheesecake with a graham cracker crust,
+                    topped with fresh berries.
+                  </p>
+                  <p class="badge text-bg-secondary">450 DA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container my-2" id="about">
+        <h2>About Us</h2>
+        <div class="row g-2">
+          <div class="col-12 col-md-6">
+            <img
+              src="/images/restaurant.jpg"
+              alt="restaurant"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <div
+              class="d-flex align-items-center justify-content-center flex-column h-100"
+            >
+              <p class="text-center">
+                Welcome to Deliscious Bites, where we serve the finest dishes
+                made with love and passion. Our menu features a variety of
+                appetizers, main courses, and desserts that are sure to satisfy
+                your cravings. Whether you're dining in or ordering for
+                delivery, we guarantee a delightful culinary experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container my-2" id="contact">
+        <div class="row">
+          <h2>Contact Us</h2>
+          <div class="col-12 col-md-6 h-100">
+            <p>
+              If you have any questions or would like to make a reservation,
+              please fill out the form below.
+            </p>
+            <div class="form-group">
+              <label for="usr">Name:</label>
+              <input type="text" class="form-control" id="usr" />
+            </div>
+            <div class="form-group">
+              <label for="mail">Email:</label>
+              <input type="email" class="form-control" id="mail" />
+            </div>
+          </div>
+          <div class="col-12 col-md-6 h-100">
+            <div class="form-group mb-2">
+              <label for="comment">Comment:</label>
+              <textarea
+                class="form-control"
+                rows="4"
+                style="resize: none"
+                id="comment"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <p class="mb-0">
+              &copy; 2025 Deliscious Bites. All rights reserved.
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <ul class="list-unstyled d-flex justify-content-between">
+              <li>
+                <div class="d-flex align-items-center gap-2">
+                  <i class="bi bi-facebook"></i>
+                  <a href="#" class="text-decoration-none">Facebook</a>
+                </div>
+              </li>
+
+              <li>
+                <div class="d-flex align-items-center gap-2">
+                  <i class="bi bi-instagram"></i>
+                  <a href="#" class="text-decoration-none">Instagram</a>
+                </div>
+              </li>
+              <li>
+                <div class="d-flex align-items-center gap-2">
+                  <i class="bi bi-twitter-x"></i>
+                  <a href="#" class="text-decoration-none">Twitter (X)</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"
+  ></script>
+</html>
